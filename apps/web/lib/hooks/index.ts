@@ -157,3 +157,14 @@ export * from './use-activities'
 
 // Student cards hooks
 export * from './use-student-cards'
+
+// Chatbot hooks
+export {
+  useChatbot,
+  useChatbotSessions,
+  useChatbotMessages,
+  useSendMessage,
+  chatbotKeys,
+  type LocalChatMessage,
+} from './use-chatbot'
+export type { ChatMessage, ChatSession, ChatResponse } from '../api/chatbot'
